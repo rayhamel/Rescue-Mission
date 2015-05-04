@@ -1,0 +1,8 @@
+<p>
+  <strong>Answer:</strong>
+  <%= render_safe_markdown(answer.description) %>
+</p>
+
+<p>
+  <%= link_to 'Destroy Answer', [answer.question, answer], method: :delete %>
+</p>

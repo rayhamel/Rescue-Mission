@@ -8,6 +8,19 @@
 </head>
 <body>
 
+<p class="notice">
+	<%= notice %>
+</p>
+
+<p class="alert">
+	<%= alert %>
+</p>
+
+<ul>
+	<%= render 'users/registration_items' %>
+	<%= render 'users/login_items' %>
+</ul>
+
 <%= yield %>
 
 </body>
